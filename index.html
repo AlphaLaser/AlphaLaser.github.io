@@ -16,7 +16,7 @@
 </body>
 </html> -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -40,5 +40,144 @@
           </div>
         </div>
       </section>
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>adit magotra</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background: #fff;
+      color: #000;
+      margin: 40px;
+      line-height: 1.6;
+      text-transform: lowercase;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+    .column {
+      flex: 1;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+    .section {
+      margin-bottom: 2em;
+    }
+    .item {
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+    .subitem {
+      margin-left: 0;
+    }
+    .section-title {
+      display: none;
+    }
+    .section::before {
+      content: attr(data-title);
+      font-weight: bold;
+      text-decoration: underline;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    a {
+      color: #0000ee;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>adit magotra</h1>
+  <p>18 • data sci @ aalto university, finland.</p>
+
+  <div class="container">
+    <div class="column">
+      <div class="section" data-title="contact">
+        <div class="item">- phone: (+358) 041-741-6473</div>
+        <div class="item">- email: <a href="mailto:aditmagotra@gmail.com">aditmagotra@gmail.com</a></div>
+        <div class="item">- github: <a href="https://github.com/alphalaser">alphalaser</a></div>
+        <div class="item">- linkedin: <a href="https://linkedin.com/in/aditmagotra">in/aditmagotra</a></div>
+      </div>
+
+      <div class="section" data-title="entrepreneurship clubs">
+        <div class="item">0. core @ aaltoes</div>
+        <div class="subitem">- largest student-run entrepreneurship community in europe.</div>
+        <div class="subitem">- leading build-it 2.0: shipping fast + more.</div>
+        <div class="subitem">- partnering with killer startups on open-source.</div>
+        <div class="subitem">- only freshman on the core team.</div>
+
+        <div class="item">1. president @ projectbeta (tech/startup club)</div>
+        <div class="subitem">- increased members by 3x (37 → 120).</div>
+        <div class="subitem">- organised intl comps with 500+ participants.</div>
+        <div class="subitem">- oversaw work of 16 departments.</div>
+      </div>
+
+      <div class="section" data-title="prev. work">
+        <div class="item">0. nlp research (independent)</div>
+        <div class="subitem">- built a novel task detection dataset+model.</div>
+        <div class="subitem">- presented <a href="https://nips.cc">paper</a> @ nml workshop, neurips ‘23.</div>
+        <div class="subitem">- selected for natl science fair (top 1% of 10k+).</div>
+        <div class="subitem">- mailed mit phd for mentorship (she said yes).</div>
+
+        <div class="item">1. swe/ml @ social nlp lab, smu singapore</div>
+        <div class="subitem">- built a deployment interface from scratch for a p hot model based on the neural hawkes process.</div>
+        <div class="subitem">- sent 200 mails to get this one lol.</div>
+        <div class="subitem">- <a href="#">code</a>, <a href="#">paper</a> (naacl ‘22)</div>
+
+        <div class="item">2. growth / community @ slingshot (techstars)</div>
+        <div class="subitem">- onboarded 400+ high school tech prodigies.</div>
+        <div class="subitem">- managed a community of 3k devs.</div>
+        <div class="subitem">- helped scale to 10k+ active users and 200k arr.</div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="section" data-title="tech stack">
+        <div class="item">- basically everything given a night with internet.</div>
+      </div>
+
+      <div class="section" data-title="tech comps / hackathons">
+        <div class="sub-item">- 1st in data analysis+nlp comp.</div>
+        <div class="sub-item">- 2nd in biggest hs ml comp in india, app dev comp, cryptic hunt.</div>
+        <div class="sub-item">- 3rd in biggest mlthon in india + 2x cash prize.</div>
+        <div class="sub-item">- special award by symbl.ai, hacktable + 3rd in tranzathon. (hackathons)</div>
+      </div>
+
+      <div class="section" data-title="programs/scholarships">
+        <div class="sub-item">- $1500 (full scholly) to attend stanford’s ulo: number theory.</div>
+        <div class="sub-item">- $1100 (full scholly) to attend linguistics camp @ ohio state.</div>
+      </div>
+
+      <div class="section" data-title="projects">
+        <div class="item">0. beezy: google meet → todo list in real-time</div>
+        <div class="subitem">- built dataset using linguistic filters and trained bert on it. teamed up with ex-apple engineer.</div>
+
+        <div class="item">1. wolverine: self-healing rag agent</div>
+        <div class="subitem">- a full feedback driven multi agent loop to detect its own hallucinations/misleading answers.</div>
+
+        <div class="item">2. pine: globally hosted trie cli + rest api</div>
+        <div class="subitem">- single global state allowing concurrent clients to run operations like autocomplete on a trie.</div>
+
+        <div class="item">3. neural network from scratch</div>
+        <div class="subitem">- built a neural network from scratch without any external libs in julialang.</div>
+
+        <div class="item">4. gameplay images dataset</div>
+        <div class="subitem">- wrote a python script to generate a dataset of gameplay images from videos on youtube.</div>
+        <div class="subitem">- forgot about it → opened a few weeks ago to see it has 700 downloads.</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
